@@ -1,0 +1,61 @@
+{
+  "users": {
+    "admin": {
+      "username": "admin@example.com",
+      "password": "Admin123!",
+      "role": "administrator"
+    },
+    "standard_user": {
+      "username": "user@example.com",
+      "password": "User123!",
+      "role": "user"
+    },
+    "test_user": {
+      "username": "test@example.com",
+      "password": "Test123!",
+      "role": "tester"
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Produit Test 1",
+      "price": 29.99,
+      "category": "Électronique"
+    },
+    {
+      "id": 2,
+      "name": "Produit Test 2",
+      "price": 49.99,
+      "category": "Informatique"
+    },
+    {
+      "id": 3,
+      "name": "Produit Test 3",
+      "price": 19.99,
+      "category": "Accessoires"
+    }
+  ],
+  "search_terms": {
+    "valid": ["robot", "automation", "test", "selenium"],
+    "invalid": ["xyzabc123", "nonexistent", "qwertyuiop"],
+    "special": ["@test", "#hashtag", "test&test"]
+  },
+  "urls": {
+    "base_url": "https://example.com",
+    "login_url": "https://example.com/login",
+    "dashboard_url": "https://example.com/dashboard",
+    "products_url": "https://example.com/products"
+  },
+  "timeouts": {
+    "short": 5,
+    "medium": 10,
+    "long": 30
+  },
+  "test_config": {
+    "browser": "chrome",
+    "headless": false,
+    "implicit_wait": 10,
+    "page_load_timeout": 30
+  }
+}
