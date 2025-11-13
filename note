@@ -1,0 +1,14 @@
+clone le projet dans un repertoire 
+->git clone https://github.com/bentiga9/automation_robotframework.git
+
+0.ouvrir le powershel
+1.installer python et ajouter a au patch
+2.insatller vs code
+3.pip install selenuim
+4.pip install robotframework
+5.pip install robotframework-selenuim-library
+
+
+dans le projet
+-> cd automation 
+->python -m robot test_authentication.robot
